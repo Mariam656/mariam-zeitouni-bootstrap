@@ -1,12 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!--ladda/länka först bootstrpap sen css--> 
     <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <body>
-    <h1>Detta är en rubrik, hoppas att bootstrap laddas in.</h1>
+    <div class="container" style="background-color:lightcoral;">
+        <h1> En container </h1>
+        <div class="container" style="background-color:lightgreen;">
+            <h1> En till container </h1>
+            <button class="btn"> Button </button> <!--Skillnaden på btn och class="btn"-->
+        </div>
+    </div>
+    <div class="container-fluid" style="background-color: lightcoral;">
+        Container fluid
+    </div>
 </body>
 </html>
