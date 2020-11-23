@@ -1,0 +1,25 @@
+.btn{
+    background-color: yellow;
+}
+
+h5{
+    background-color: green;
+}
+
+.card-body{
+    background-color: red;
+}
+
+h1{
+    color: blue;
+}
+
+.container-fluid{
+    background-color: blue;
+    margin-top: 30px;
+}
+
+.btn:hover{
+    background-color: black;
+}
+
