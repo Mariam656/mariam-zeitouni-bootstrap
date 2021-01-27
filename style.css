@@ -1,25 +1,17 @@
-.btn{
-    background-color: yellow;
-}
-
-h5{
-    background-color: green;
-}
-
-.card-body{
+.navbar{
     background-color: red;
+    text-align: center;
 }
 
-h1{
-    color: blue;
+.navbar h1{
+    color: green;
 }
 
-.container-fluid{
-    background-color: blue;
-    margin-top: 30px;
+h1 {
+    font-size: 20px ;
 }
 
-.btn:hover{
-    background-color: black;
+.container1{
+    background-color: green;
+    padding: 10px;
 }
-
