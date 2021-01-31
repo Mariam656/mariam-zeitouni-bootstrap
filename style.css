@@ -1,10 +1,18 @@
+body{
+    background-color: #FFCBC8;
+}
+
+
 .navbar{
-    background-color: red;
+    background-color:#C08582;
     text-align: center;
+    height: 100px;
 }
 
 .navbar h1{
-    color: green;
+    color: #693532;
+    margin-left: 360px;
+    font-size: 30px;
 }
 
 h1 {
@@ -12,6 +20,95 @@ h1 {
 }
 
 .container1{
-    background-color: green;
     padding: 10px;
+    border-bottom: 1px solid #C08582;
+}
+
+.container2{
+    padding:10px;
+    border-bottom: 1px solid #C08582;
+}
+
+.container3{
+    padding: 10px;
+    border-bottom: 1px solid #C08582;
+}
+
+.container4{
+    padding: 10px;
+    border-bottom: 1px solid #C08582;
+}
+
+.container5{
+    padding: 10px;
+    border-bottom: 1px solid #C08582;
+}
+
+.container6{
+    padding: 10px;
+    border-bottom: 1px solid #C08582;
+}
+
+.container7{
+    padding: 10px;
+    border-bottom: 1px solid #C08582;
+    border-right: 1px solid #C08582;
+    width: 50%;
+}
+
+.container8{
+    padding: 10px;
+    border-bottom: 1px solid #C08582;
+    width: 50%;
+    margin-left: 50%;
+    margin-top: -165px;
+}
+
+.container9{
+    padding: 10px;
+    border-bottom: 1px solid #C08582;
+}
+
+.container10{
+    padding: 10px;
+    border-bottom: 1px solid #C08582;
+}
+
+.container11{
+    padding: 10px;
+    border-bottom: 1px solid #C08582;
+}
+
+.container12{
+    padding: 10px;
+    border-bottom: 1px solid #C08582;
+}
+
+.container13{
+    padding: 10px;
+    border-bottom: 1px solid #C08582;
+}
+
+.container14{
+    padding: 10px;
+    border-bottom: 1px solid #C08582;
+    width: 50%;
+    border-right: 1px solid #C08582;
+}
+
+.container15{
+    padding: 10px;
+    border-bottom: 1px solid #C08582;
+    width: 50%;
+    margin-left: 50%;
+    margin-top: -20px;
+}
+
+.container15 h1{
+    margin-top: -390px;
+}
+
+.grid{
+    width: 300px;
+    height: 50%;
 }
