@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!--ladda/länka först bootstrpap sen css--> 
+    <!--laddar/länkar först bootstrpap sen css. Detta är viktigt för att bootstrap måste kollas upp först 
+    sedan css.--> 
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
@@ -9,16 +10,18 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="navbar">
+    <div class="navbar"> <!--Använder mig av en navbar för att hemsidan ser bättre ut och för att navbar redan fanns med i bootstrap. Så jag tog navbaren som var i bootstrap och ändrade lite till den i mitt css-->
         <h1>Förklaring av ord inom webbutveckling </h1>
     </div>
-    <div class="container1">
-        <h1> Element </h1>
+    <div class="container1"> <!--Använde div med class namner i hela mitt html-dokument. Detta gjorde jag för att det ska bli lättare för mig att skilja på olika 
+        begrepp och texter som jag behöver skriva, och självklart för att det är lättare att fixa till det i css-->
+        <h1> Element </h1> 
         <p>En html element är det man använder för att bygga upp en html dokument. 
-            Element är i huvudsak de taggar som ligger inom kodningen av HTML. 
-            Den är allting från start tag till slut tag. Den berättar för webbläsaren hur 
-            man strukturerar och tolkar en del av HTML-dokumentet så att html dokumentet 
-            blir till en hemsida.</p>
+            Element är i huvudsak de taggar som ligger i html dokumentet. 
+            Den är allting från start till slut tag. Den berättar för webbläsaren hur 
+            man strukturerar och tolkar en del av HTML-dokumentet så att den ser ut så som man önskar.</p>
+            <img class="element" src="https://www.etutorialspoint.com/images/html_elements.jpg"> <!-- Anger ett class namn till mitt bild för att sedan lätt hitta den i css och fixa den. Använder bildens
+            URL för att jag tycker det är en lättare och snabbare väg än att ladda ner bilden och sedan lägga till den.-->
     </div>
     
     <div class="container2">
@@ -31,15 +34,15 @@
     
     <div class="container3">
         <h1> ID </h1>
-        <p>ID inom HTML är en webbläsare stöd som ger till ett unikt ID till varje 
+        <p>ID inom HTML är en webbläsare stöd som ger ett unikt ID till varje enda
             element man använder i sin html dokument. </p>
     </div>
     
     <div class="container4">
         <h1> Class </h1>
         <p>Det som html class gör är att den ger namn (class namn) till elementer. 
-            Det som är användbar med classer är då att man kan lätt fixa till sitt hemsida 
-            genom att använda class namnet i css.</p>
+            Det som är användbar med classer är att man kan lätt fixa till saker i css genom att använda 
+            class namnen. Alltså mindre tid och mindre jobb.</p>
     </div>
     
     <div class="container5">
@@ -56,7 +59,7 @@
         <h1> Responsive </h1>
         <p>Responsive handlar om att använda html och css för att göra en webbsida anpassad för 
             alla enheter. Den ändrar på hemsidans storlek på tex. texter, bilder osv automatisk 
-            beroende på det enheten man använder om det är en mobil eller dator osv. </p>
+            beroende på det enheten man använder, om det är en mobil eller dator osv. </p>
     </div>
     
     <div class="container7">
@@ -68,10 +71,10 @@
     
     <div class="container8">
         <h1> https </h1>
-        <p>Https är en förlängning av http. Den står för samma sak som http men med s i slutet 
+        <p>Https är en förlängning av http. Den står för samma sak som http men med ett s
             som betyder secure, säkerhet. Det som https skiljer sig från http är alltså säkerhet. 
             Https skapar en krypterad anslutning mellan en webbserver och en webbläsare. Detta behövs för
-            att skydda alt information du anger till en webbsida.</p>
+            att skydda allt information man anger till en webbsida.</p>
     </div>
     
     <div class="container9">
@@ -108,7 +111,7 @@
     
     <div class="container13">
         <h1> Flexbox </h1>
-        <p>Flex är en av de mycket populära CSS-layouterna som underlättar webbutvecklarnas arbete, särskilt i komplexa
+        <p>Flexblox är en av de mycket populära CSS-layouterna som underlättar webbutvecklarnas arbete, särskilt i komplexa
             projekt. Flexbox hjälper till att forma webbplatsstrukturen. Det är den enklaste CSS-modellen som kan användas
             för att enkelt ordna och justera element på platsen horisontellt och vertikalt.</p>
     </div>
@@ -124,7 +127,8 @@
 
     <div class="container15">
         <h1> Code snippets </h1>
-        <p></p>
+        <p>Code snippet är en samling av tidigare skrivna kod. Utvecklare som håller med stora projecter bygger ett bibliotek
+            med återanvändbara kodavsnitt som kallas då för Code snippet. Detta gör man för att kunna använda koden i framtida utvecklingar.</p>
     </div>
 </body>
 </html>

@@ -1,64 +1,76 @@
 body{
-    background-color: #FFCBC8;
+    background-color: #DCEBDF;
 }
 
-
 .navbar{
-    background-color:#C08582;
+    background-color:#505F53;
     text-align: center;
     height: 100px;
 }
 
 .navbar h1{
-    color: #693532;
-    margin-left: 360px;
+    color: white;
+    margin-left: 320px;
     font-size: 30px;
 }
 
 h1 {
-    font-size: 20px ;
+    font-size: 20px;
+    width: 50%;
 }
 
 .container1{
     padding: 10px;
-    border-bottom: 1px solid #C08582;
+    border-bottom: 1px solid#829185;
+}
+
+.container1 p{
+    position: static;
+    margin-right: 50%;
+}
+
+.element{
+    width: 400px;
+    height: 50%;
+    margin-left: 700px;
+    margin-top: -130px;
 }
 
 .container2{
     padding:10px;
-    border-bottom: 1px solid #C08582;
+    border-bottom: 1px solid #829185;
 }
 
 .container3{
     padding: 10px;
-    border-bottom: 1px solid #C08582;
+    border-bottom: 1px solid #829185;
 }
 
 .container4{
     padding: 10px;
-    border-bottom: 1px solid #C08582;
+    border-bottom: 1px solid #829185;
 }
 
 .container5{
     padding: 10px;
-    border-bottom: 1px solid #C08582;
+    border-bottom: 1px solid #829185;
 }
 
 .container6{
     padding: 10px;
-    border-bottom: 1px solid #C08582;
+    border-bottom: 1px solid #829185;
 }
 
 .container7{
     padding: 10px;
-    border-bottom: 1px solid #C08582;
-    border-right: 1px solid #C08582;
+    border-bottom: 1px solid#829185;
+    border-right: 1px solid #829185;
     width: 50%;
 }
 
 .container8{
     padding: 10px;
-    border-bottom: 1px solid #C08582;
+    border-bottom: 1px solid #829185;
     width: 50%;
     margin-left: 50%;
     margin-top: -165px;
@@ -66,39 +78,39 @@ h1 {
 
 .container9{
     padding: 10px;
-    border-bottom: 1px solid #C08582;
+    border-bottom: 1px solid #829185;
 }
 
 .container10{
     padding: 10px;
-    border-bottom: 1px solid #C08582;
+    border-bottom: 1px solid #829185;
 }
 
 .container11{
     padding: 10px;
-    border-bottom: 1px solid #C08582;
+    border-bottom: 1px solid #829185;
 }
 
 .container12{
     padding: 10px;
-    border-bottom: 1px solid #C08582;
+    border-bottom: 1px solid #829185;
 }
 
 .container13{
     padding: 10px;
-    border-bottom: 1px solid #C08582;
+    border-bottom: 1px solid #829185;
 }
 
 .container14{
     padding: 10px;
-    border-bottom: 1px solid #C08582;
+    border-bottom: 1px solid #829185;
     width: 50%;
-    border-right: 1px solid #C08582;
+    border-right: 1px solid #829185;
 }
 
 .container15{
     padding: 10px;
-    border-bottom: 1px solid #C08582;
+    border-bottom: 1px solid #829185;
     width: 50%;
     margin-left: 50%;
     margin-top: -20px;
@@ -111,4 +123,5 @@ h1 {
 .grid{
     width: 300px;
     height: 50%;
+    margin-left: 10px;
 }
