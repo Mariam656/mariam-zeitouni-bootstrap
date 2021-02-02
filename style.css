@@ -1,3 +1,4 @@
+/*Väljer färgen på bakgrunden och skriver det direkt i body för att hela bakgrunden ska få samma färg. Lättare än att ge samma färg många flera gånger till olika container*/
 body{
     background-color: #DCEBDF;
 }
@@ -8,22 +9,28 @@ body{
     height: 100px;
 }
 
+
+/*Ändrar bara på just h1 som är inom navbar*/
 .navbar h1{
     color: white;
     margin-left: 320px;
     font-size: 30px;
 }
 
+/*Ändrar på alla h1 jag har i min html dokumentet för att jag vill att alla ska se likadan ut och för att slippa göra det i varje enda container*/
 h1 {
     font-size: 20px;
     width: 50%;
 }
 
+/*Padding gör det så att texter inte sitta ihop och så att man kan skilja sig mellan vilke text tillhör vilken h1. Bottom border ändrar på just bordern som är där nere. Valde att ge den en
+annan färg för att det ska se finare ut*/
 .container1{
     padding: 10px;
     border-bottom: 1px solid#829185;
 }
 
+/*Ändrar på just p som är i container1. Använder margin 50% så att texten är bara på halva sidan, så att bilden jag har i container1 inte sitter på texten*/
 .container1 p{
     position: static;
     margin-right: 50%;
@@ -36,6 +43,7 @@ h1 {
     margin-top: -130px;
 }
 
+/*Kopierade och gjorde exakt samma sak på nästa alla container. Att lägga till allting i varsin container var det bästa sättet att använda för mig för att jag behövde fixa till vissa container som inte ser likadan ut som andra*/ 
 .container2{
     padding:10px;
     border-bottom: 1px solid #829185;
